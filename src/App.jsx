@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import GetToken from './GetToken'
+import SignUpForm from './SignUp'
 import Authenticate from './Authenticate'
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-    <h1>Hello!</h1>
-    <GetToken token={token} setToken={setToken}/>
-    <Authenticate token={token}/>
+    <h1>Create a token!</h1>
+    <SignUpForm token={token} setToken={setToken}/>
+    <Authenticate token={token} setToken={setToken}/>
     </>
   )
 }

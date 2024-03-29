@@ -1,0 +1,25 @@
+body{
+  background-color: bisque;
+  text-align: center;
+}
+label{
+  margin: 5pt;
+}
+form{
+  background-color: white;
+  padding: 10pt;
+  width: fit-content;
+  margin: auto;
+  border: solid black;
+}
+h2{
+  font-style: italic;
+}
+section{
+  background-color: white;
+  padding: 10pt;
+  width: fit-content;
+  margin: auto;
+  border: solid black;
+  margin-top: 20pt;
+}
